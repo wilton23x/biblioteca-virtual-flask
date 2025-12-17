@@ -1,0 +1,44 @@
+/* ===== ESTILO GENERAL ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== BOTÓN PERSONALIZADO ===== */
+.btn-primary {
+    background-color: #2a9d8f; /* Azul verdoso (teal) */
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #21867a;
+    transform: scale(1.05);
+}
+
+/* ===== CARDS ===== */
+.card {
+    border-radius: 14px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== HEADER ===== */
+header {
+    background: linear-gradient(180deg, #e0f2f1, #ffffff);
+}
+
+/* ===== FOOTER ===== */
+footer {
+    font-size: 0.9rem;
+}
+
+/* ===== MEDIA QUERY PERSONALIZADA ===== */
+@media (max-width: 576px) {
+    header {
+        background: #e0f2f1;
+    }
+}
