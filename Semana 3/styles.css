@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 nav {
     display: flex;
     gap: 15px;
@@ -10,10 +11,67 @@ nav {
     color: white;
     padding: 8px 14px;
     border-radius: 6px;
+=======
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f4f4f4;
+}
+
+header {
+    background: #0077cc;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+>>>>>>> 373f61974a6cc317036ff321956ecf92e0fd8d58
     text-decoration: none;
     font-weight: bold;
 }
 
+<<<<<<< HEAD
 .semana4-link:hover {
     background-color: #16a085;
+=======
+section {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    background: #0077cc;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+>>>>>>> 373f61974a6cc317036ff321956ecf92e0fd8d58
 }

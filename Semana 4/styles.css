@@ -1,6 +1,7 @@
 /* ===== ESTILO GENERAL ===== */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+<<<<<<< HEAD
     background-color: #f8f9fa;
 }
 
@@ -20,6 +21,8 @@ header {
 
 .nav-link:hover {
     color: #2a9d8f !important;
+=======
+>>>>>>> 373f61974a6cc317036ff321956ecf92e0fd8d58
 }
 
 /* ===== BOTÓN PERSONALIZADO ===== */
@@ -45,10 +48,16 @@ header {
     box-shadow: 0 10px 22px rgba(0, 0, 0, 0.15);
 }
 
+<<<<<<< HEAD
 /* ===== IMÁGENES ===== */
 .card-img-top {
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
+=======
+/* ===== HEADER ===== */
+header {
+    background: linear-gradient(180deg, #e0f2f1, #ffffff);
+>>>>>>> 373f61974a6cc317036ff321956ecf92e0fd8d58
 }
 
 /* ===== FOOTER ===== */
@@ -56,6 +65,7 @@ footer {
     font-size: 0.9rem;
 }
 
+<<<<<<< HEAD
 footer a {
     text-decoration: none;
     color: #2a9d8f;
@@ -65,13 +75,18 @@ footer a:hover {
     text-decoration: underline;
 }
 
+=======
+>>>>>>> 373f61974a6cc317036ff321956ecf92e0fd8d58
 /* ===== MEDIA QUERY PERSONALIZADA ===== */
 @media (max-width: 576px) {
     header {
         background: #e0f2f1;
     }
+<<<<<<< HEAD
 
     h1 {
         font-size: 1.8rem;
     }
+=======
+>>>>>>> 373f61974a6cc317036ff321956ecf92e0fd8d58
 }
