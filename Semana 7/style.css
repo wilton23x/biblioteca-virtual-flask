@@ -1,9 +1,17 @@
+/* ===== RESET BÁSICO ===== */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== BODY ===== */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f6f8;
-    margin: 20px;
 }
 
+/* ===== NAVEGACIÓN ===== */
 nav {
     margin-bottom: 20px;
 }
@@ -12,22 +20,33 @@ nav a {
     text-decoration: none;
     color: #0077cc;
     margin-right: 10px;
+    font-weight: bold;
 }
 
-h1 {
-    color: #333;
-}
-
+/* ===== CONTENEDOR PRINCIPAL ===== */
 .contenedor {
-    max-width: 600px;
-    background: #fff;
+    min-height: 100vh;          /* ocupa toda la pantalla */
+    width: 100%;
+    max-width: 600px;           /* ancho controlado */
+    background: #ffffff;
     padding: 20px;
     border-radius: 6px;
+    margin: 0 auto;             /* centrado horizontal */
+    text-align: justify;        /* texto justificado */
+    box-sizing: border-box;
 }
 
+/* ===== TÍTULOS ===== */
+h1, h2, h3 {
+    color: #333;
+    text-align: left;           /* títulos NO justificados */
+}
+
+/* ===== LISTA DE PRODUCTOS ===== */
 ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 li {
@@ -39,11 +58,21 @@ li:last-child {
     border-bottom: none;
 }
 
+/* ===== PRECIO ===== */
 .precio {
     color: green;
     font-weight: bold;
 }
 
+/* ===== FORMULARIO ===== */
+input {
+    width: 100%;
+    padding: 6px;
+    margin: 5px 0 10px 0;
+    box-sizing: border-box;
+}
+
+/* ===== BOTONES ===== */
 button {
     margin-top: 15px;
     padding: 10px;
